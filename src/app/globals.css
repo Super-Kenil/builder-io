@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  border-left: 2px solid #160c0c;
+  border-right: 4px solid #160c0c;
+}
+
+.scrollBar_purple::-webkit-scrollbar-thumb {
+  @apply bg-purple-500;
+}
+.scrollBar_sky::-webkit-scrollbar-thumb {
+  @apply bg-sky-500;
+}
+.scrollBar_yellow::-webkit-scrollbar-thumb {
+  @apply bg-yellow-500;
+}
+.scrollBar_teal::-webkit-scrollbar-thumb {
+  @apply bg-teal-500;
+}
+.scrollBar_blue::-webkit-scrollbar-thumb {
+  @apply bg-blue-500;
+}
+.scrollBar_green::-webkit-scrollbar-thumb {
+  @apply bg-green-500;
+}
+.scrollBar_orange::-webkit-scrollbar-thumb {
+  @apply bg-orange-500;
+}
+.scrollBar_red::-webkit-scrollbar-thumb {
+  @apply bg-red-500;
+}
+.scrollBar_neutral::-webkit-scrollbar-thumb {
+  @apply bg-neutral-500;
+}
